@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    color:white;
+    background-color: black;
+
+}
+
+.nav-container{
+    height: 70px;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: bold;
+}
+.coming-div p{
+    display: block;
+    padding: 25px;
+    font-size: 30px;
+}
+.coming-soon{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-items: center; */
+    margin-top: 200px;
+}
+
+.date-countdown p{
+    display: block;
+    width: fit-content;
+    padding: 25px 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .date-countdown p{
+        padding: 5px 5px;
+        border-radius: 5px;
+        font-size: 17px;
+    }
+
+    .coming-div p{
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .nav-container{
+        height: 30px;
+        
+        line-height: 30px;
+        
+        font-size: 20px;
+        width: 100%;
+    }
+}
